@@ -25,11 +25,14 @@ body {
   line-height: 25px;
   border-radius: 4px;
 }
+.navlink {
+  
+}
 #form {
   
 }
 #video {
-    margin: 0 auto;
+  margin: 0 auto;
 	border: 10px outset #ddd;
 }
 #email {
@@ -54,4 +57,9 @@ body {
 }
 .flex-container > div:first-child {
 	margin-right: 20px;
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: #A52A2A;
+  }
 }
