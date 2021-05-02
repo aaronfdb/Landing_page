@@ -8,7 +8,12 @@ body {
   font-size: 25px;
 }
 #header-img {
-  background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/12/30/14/indian-novels-indybest.jpg");
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 125px;
+  width: 125px;
 }
 #nav-bar {
   color: #A52A2A;
@@ -24,7 +29,8 @@ body {
   
 }
 #video {
-  
+    margin: 0 auto;
+	border: 10px outset #ddd;
 }
 #email {
   width: 40%;
